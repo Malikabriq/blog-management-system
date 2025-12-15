@@ -1,0 +1,62 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ===============================
+# Virtual Environment
+# ===============================
+venv/
+env/
+.venv/
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.*
+
+# ===============================
+# FastAPI / Uvicorn
+# ===============================
+*.log
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Editor / IDE
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# Blog Data (Filesystem Storage)
+# ===============================
+articles/
+# Uncomment below if you want sample data tracked
+# !articles/sample.json
+
+# ===============================
+# Database (if any left)
+# ===============================
+*.sqlite3
+
+# ===============================
+# Test / Coverage
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===============================
+# Migrations (if using Alembic)
+# ===============================
+alembic/versions/__pycache__/
